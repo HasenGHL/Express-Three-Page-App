@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-size: 38px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #eee;
+    box-shadow: 0 0 8px grey;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+a, button{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+button{
+    font-size: 22px;
+    padding: 5px 20px;
+}
+
+a:hover{
+    scale: 1.2;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    scale: 1.2;
+    background-color: black;
+    color: white;
+}
+
+.sorry{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 100px auto;
+}
+
+.sorry-msg{
+    text-align: center;
+}
+
+h1, h2{
+    text-align: center;
+    margin: 50px auto;
+}
+p{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+li{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.s-title{
+    font-weight: bold;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input, textarea{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+}
